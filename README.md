@@ -1,5 +1,9 @@
 # Json Manager 
-This package consists of two parts and uses the Newtonsoft Json Package. To install this 3rd-Party Package, open your Package Manager, hit the "+" and select "Add package from git URL ...". There you can type in *com.unity.nuget.newtonsoft-json* and press "Add".
+This package consists of two parts and uses the Newtonsoft Json Package. 
+
+To install this 3rd-Party Package, open your Package Manager, hit the "+" and select "Add package from git URL ...". There you can type in *com.unity.nuget.newtonsoft-json* and press "Add".
+
+You can then simply download the single [package file](Json.unitypackage) and drop it into your project to import everything you need without cloning this whole repository. 
 
 ## Helper Class
 On the one hand it consists of a Helper Class (JsonHelper), which takes over the serialization and deserialization of json files. This Helper Class can be used both at runtime and in the editor. For deserialization, a distinction is made between resources, i.e. static data, which are defined by the developer, and dynamic data, which reflect the state of the application.
