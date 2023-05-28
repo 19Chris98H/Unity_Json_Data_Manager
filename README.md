@@ -1,4 +1,4 @@
-# Json Manager 
+# Json Manager for Unity
 This package consists of two parts and uses the Newtonsoft Json Package. 
 
 To install this 3rd-Party Package, open your Package Manager, hit the "+" and select "Add package from git URL ...". There you can type in *com.unity.nuget.newtonsoft-json* and press "Add".
